@@ -47,7 +47,7 @@ If you have any concerns about your skin, feel free to ask me anything. I'm here
         content: msg.text
       }));
 
-      const res = await axios.post('https://chat-demo-bugv.onrender.com/chat', {
+      const res = await axios.post('https://chat-eng.onrender.com/chat', {
         messages: gptMessages
       });
 
